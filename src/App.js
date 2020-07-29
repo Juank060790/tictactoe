@@ -38,6 +38,7 @@ export default class App extends Component {
     data.append("player", this.state.username);
     data.append("score", this.state.elapsedTime);
     const url = `http://ftw-highscores.herokuapp.com/tictactoe-dev`;
+    // eslint-disable-next-line
     const response = await fetch(url, {
       method: "POST",
       headers: {
