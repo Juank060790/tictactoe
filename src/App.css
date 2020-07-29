@@ -1,7 +1,38 @@
 .square{
     width: 200px;
     height: 200px;
-    border: 2px solid red;
+    border: 3px solid rgba(255, 0, 0, 0.591);
     font-size: 180px;
     text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.tictactoe{
+        margin: 20%;
+       justify-content: center;
+       line-height: 2.5rem;
+       text-align: center;
+  
+}
+
+body{
+    color: white;
+    background-color: black;
+    line-height: 1;
+
+}
+
+.inner-board-game{
+margin: auto;
+}
+
+ol{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    margin: 20px;
+}
+
+.spacing-buttons{
+    margin: 15px;
 }
